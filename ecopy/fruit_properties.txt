@@ -1,0 +1,4 @@
+- Add depth to field, fruit can be at multiple depths and is dug to by harvesting fruit above
+- Agent energy and energy costs for moving
+- land properties: depth (relative to ground 0 which is the bottom layer), type (rock? grass? Types A )
+- Relational distrobution to fruit and other fruit as well as land properties

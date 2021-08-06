@@ -1,0 +1,38 @@
+{
+    "iterations": 25,
+    "field_x": 20,
+    "field_y": 20,
+    "show_terrain": true,
+    "agents": [
+
+        {
+            "name": "A",
+            "number": 25,
+            "model": "RANDOM",
+            "distro": "RANDOM",
+
+            "properties": {
+                "init_energy": 5,
+                "energy_decay": 0.25
+            }
+            
+        }
+    ],
+
+    "fruit": [
+
+        {
+            "name": "B",
+            "number": 50,
+            "distro": "HEATMAP",
+            "num_epic": 1,
+            "initial_p": 0.95,
+            "p_decay": 0.05,
+
+            "properties": {
+                "harvest_time": 1,
+                "energy": 1
+            }
+        }
+    ]
+}
